@@ -276,6 +276,12 @@ textarea {
     font-style: italic;
 }
 
+#siteSearch::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    display: none;
+
+}
+
 
 .search-close {
     width: 38px;
@@ -2401,3 +2407,15 @@ textarea {
   .modal-btn:hover {
     background-color: #8c2525;
   }
+
+  .search-inline-msg {
+    margin-top: 10px;
+    padding: 10px 14px;
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    border-radius: 6px;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: center;
+}
